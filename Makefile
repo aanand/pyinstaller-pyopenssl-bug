@@ -1,8 +1,5 @@
-default: requirements
+default: venv
 	bash -c 'source venv/bin/activate && script/build'
-
-requirements: venv
-	venv/bin/pip install -r requirements.txt
 
 venv:
 	virtualenv venv
