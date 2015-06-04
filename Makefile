@@ -1,5 +1,5 @@
 default: requirements
-	script/build
+	bash -c 'source venv/bin/activate && script/build'
 
 requirements: venv
 	venv/bin/pip install -r requirements.txt
