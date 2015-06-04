@@ -1,7 +1,7 @@
 default: binary
 
 binary: venv
-	bash -c 'source venv/bin/activate && script/build'
+	bash -c 'source venv/bin/activate && ./build.bash'
 
 run-script: venv
 	bash -c 'source venv/bin/activate && bin/main'
