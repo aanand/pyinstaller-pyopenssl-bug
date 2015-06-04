@@ -1,2 +1,4 @@
 pyOpenSSL==0.15.1
-git+https://github.com/pyinstaller/pyinstaller.git@12e40471c77f588ea5be352f7219c873ddaae056#egg=pyinstaller
+
+# 'develop' branch as of 2015-06-04
+git+https://github.com/pyinstaller/pyinstaller.git@32bbb954b355937ccfe377afbe56979db79a7b30#egg=pyinstaller
