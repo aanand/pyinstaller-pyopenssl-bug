@@ -2,11 +2,6 @@
 
 set -e
 
-echo "
-*** Installing requirements ***
-"
-pip install -r requirements.txt
-
 mkdir -p `pwd`/dist
 chmod 777 `pwd`/dist
 

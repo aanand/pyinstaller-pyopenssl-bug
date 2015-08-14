@@ -1,10 +1,13 @@
 default: binary
 
-binary: venv
+binary: requirements
 	bash -c 'source venv/bin/activate && ./build.bash'
 
-run-script: venv
+run-script: requirements
 	bash -c 'source venv/bin/activate && bin/main'
+
+requirements:
+	venv/bin/pip install -r requirements.txt
 
 venv:
 	virtualenv venv
