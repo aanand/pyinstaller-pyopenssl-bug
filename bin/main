@@ -1,5 +1,5 @@
 #!/usr/bin/env python
 
-import OpenSSL
+from cryptography.hazmat.bindings.openssl.binding import Binding
 
-print "Imported pyOpenSSL", OpenSSL.__version__
+print "Imported Binding"
